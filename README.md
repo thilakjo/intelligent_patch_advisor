@@ -35,7 +35,7 @@ Follow these steps to set up and run the Intelligent Patch Advisor on your local
 
     ```bash
     # If you're starting from a fresh clone
-    git clone <your-repo-link>
+    git clone https://github.com/thilakjo/intelligent_patch_advisor
     cd intelligent_patch_advisor
     ```
 
@@ -145,7 +145,6 @@ Follow these steps to set up and run the Intelligent Patch Advisor on your local
 1.  **Clone the Repository (if applicable, otherwise navigate to your project folder):**
 
     ```bash
-    # If you're starting from a fresh clone
     git clone <your-repo-link>
     cd intelligent_patch_advisor
     ```
@@ -161,19 +160,19 @@ Follow these steps to set up and run the Intelligent Patch Advisor on your local
 
 3.  **Activate the Virtual Environment:**
 
-    - **macOS / Linux:**
-      ```bash
-      source venv/bin/activate
-      ```
-    - **Windows (Command Prompt):**
-      ```bash
-      venv\Scripts\activate.bat
-      ```
-    - **Windows (PowerShell):**
-      `bash
-venv\Scripts\Activate.ps1
-`
-      (You should see `(venv)` at the beginning of your terminal prompt, indicating the virtual environment is active.)
+        - **macOS / Linux:**
+          ```bash
+          source venv/bin/activate
+          ```
+        - **Windows (Command Prompt):**
+          ```bash
+          venv\Scripts\activate.bat
+          ```
+        - **Windows (PowerShell):**
+          `bash
+
+    venv\Scripts\Activate.ps1
+    `      (You should see`(venv)` at the beginning of your terminal prompt, indicating the virtual environment is active.)
 
 4.  **Install Dependencies:**
     All required libraries are listed in `requirements.txt`.
@@ -228,5 +227,11 @@ intelligent_patch_advisor/
 
 - **Jo-team**
 - Thilak S - RVCE - 1RV22EC171
+  thilakjo.com
+
+## screenshot
+
+![Screenshot of the application](screenshots/Screenshot 2025-07-11 at 10.04.56 PM.png)
+![screenshot of the solution provided](screenshots/Screenshot 2025-07-11 at 10.05.48 PM.png)
 
 ---

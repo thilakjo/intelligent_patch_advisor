@@ -2,7 +2,7 @@
 
 **LLM-Powered Vulnerability Analysis**
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/) [![Streamlit](https://img.shields.io/badge/streamlit-%E2%89%A50.85-orange)](https://streamlit.io/) [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/) [![Streamlit](https://img.shields.io/badge/streamlit-%E2%89%A50.85-orange)](https://streamlit.io/)
 
 ---
 

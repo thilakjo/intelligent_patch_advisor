@@ -1,27 +1,44 @@
-# Byte-compiled / optimized / DLL files
+# Byte‑compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
 *.egg-info/
+.installed.cfg
+*.egg
 
-# Virtual environment
-venv/  # This ignores the 'venv' folder you created
+# Virtual environments
+venv/
+.env/     # if you named your file `.env/` with trailing slash
+.env      # the common env file
 
-# Environment variables (where your API key will be stored)
-.env   # IMPORTANT: This ignores the .env file
-
-# Logs
-*.log
-
-# IDE specific files (VS Code, PyCharm, etc.)
+# IDEs and editors
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
 
-# MacOS specific files
+# macOS
 .DS_Store
 
-# Jupyter Notebook specific files
+# Logs
+*.log
+
+# Streamlit cache, lock
+.streamlit/
+.lock
+
+# Pytest
+.cache/
+
+# Jupyter
 .ipynb_checkpoints/

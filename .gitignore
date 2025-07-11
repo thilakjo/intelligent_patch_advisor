@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environment
+venv/  # This ignores the 'venv' folder you created
+
+# Environment variables (where your API key will be stored)
+.env   # IMPORTANT: This ignores the .env file
+
+# Logs
+*.log
+
+# IDE specific files (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS specific files
+.DS_Store
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/

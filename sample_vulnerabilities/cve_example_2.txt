@@ -1,0 +1,11 @@
+CVE-2024-9876: High Severity Cross-Site Scripting (XSS) in Chat Application (Client-Side)
+A high-severity reflected Cross-Site Scripting (XSS) vulnerability (CVE-2024-9876) exists in the popular "SecureChat" application, affecting client versions 5.0.0 through 5.8.0. The vulnerability occurs when a user clicks on a specially crafted link containing malicious JavaScript, which is then executed in the victim's browser session. This could lead to session hijacking, defacement, or redirection to malicious sites. While no active exploitation has been confirmed, the vulnerability is well-understood and could be easily exploited.
+
+Mitigation:
+1.  Upgrade SecureChat client to version 5.8.1 or later.
+2.  For users unable to upgrade immediately, advise extreme caution when clicking on links from untrusted sources within the chat application.
+3.  Implement Content Security Policy (CSP) headers on the server-side to restrict script execution origins (though this is client-side, strong server-side headers are a good general practice).
+
+References:
+- SecureChat Release Notes: https://securechat.com/releases/5.8.1
+- OWASP XSS Prevention Cheat Sheet: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html

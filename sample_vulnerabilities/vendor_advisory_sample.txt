@@ -1,0 +1,14 @@
+Fortinet FortiGate OS Vulnerability Advisory - FG-IR-24-001 (Unauthenticated RCE)
+A critical unauthenticated remote code execution (RCE) vulnerability (FG-IR-24-001) has been discovered in Fortinet FortiGate appliances running FortiGate OS versions 7.0.0 through 7.2.4. This vulnerability resides in the administrative interface and allows a remote attacker, without authentication, to execute arbitrary commands on the device. This poses an extreme risk to network perimeter security. Fortinet has observed limited, targeted exploitation attempts in the wild.
+
+Fortinet strongly recommends immediate patching. Firmware versions with fixes:
+- FortiGate OS 7.0.5 or later (for 7.0.x branch)
+- FortiGate OS 7.2.5 or later (for 7.2.x branch)
+- FortiGate OS 7.4.1 or later (for 7.4.x branch)
+
+Workaround:
+If immediate patching is not possible, disable the administrative interface access from untrusted networks and enable strong authentication (MFA) for all administrative access.
+
+References:
+- Fortinet PSIRT Advisory: https://www.fortiguard.com/psirt/FG-IR-24-001
+- Community Discussion: https://forums.example.com/fortinet-fg-ir-24-001
